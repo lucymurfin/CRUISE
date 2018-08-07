@@ -1,0 +1,580 @@
+#logo {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+nav{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+nav.main-menu ul{
+    list-style-type: none;
+    position: absolute;
+    top: 11%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+nav.main-menu li {
+    display: inline;  
+    text-transform: uppercase;
+    font: 600 14px Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    background-color: #00056D;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    text-decoration: none;    
+}
+ nav.main-menu li a {
+    display: inline;  
+    text-transform: uppercase;
+    font: 600 14px Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    background-color: #00056D;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid;
+    text-decoration: none;    
+}
+nav.main-menu li:hover, nav.main-menu li a:hover{
+    color: #00056D;
+    background-color: #fff;
+    transition: 0.1s ease-out;
+}
+#header{
+    max-width:100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    
+}
+
+body {
+    background-color:  #F5F5F5; 
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+.searchDetails{
+    
+}
+
+.departfrom button{    
+    text-decoration: none;
+    background-color: #006078;
+    color: #fff;
+    padding: 15px;
+    font: 600 18px Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
+.departfromDetails{
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #D5D5D5;
+    border: 1px solid;
+    font: 600 18px Helvetica, sans-serif;
+    padding: 25px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    right: 26%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.departfromDetails button{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #c8c8c8;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    
+}
+
+.departfromDetails button:hover{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #006078;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.departfromDetails items{
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+
+
+
+.destination button{   
+    text-decoration: none;
+    background-color: #006078;
+    color: #fff;
+    padding: 15px;
+    font: 600 18px Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.destinationDetails{
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #D5D5D5;
+    border: 1px solid;
+    font: 600 18px Helvetica, sans-serif;
+    padding: 25px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    right: 26%;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+.destinationDetails items{
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.destinationDetails button{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #c8c8c8;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+
+.destinationDetails button:hover{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #006078;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+
+
+.departureDate button{
+    background-color: #006078;
+    color: #fff;
+    padding: 15px;
+    font: 600 18px Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.departureDateDetails items{
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.departureDateDetails{
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #D5D5D5;
+    border: 1px solid;
+    font: 600 18px Helvetica, sans-serif;
+    padding: 25px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    right: 26%;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.departureDateDetails button{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #c8c8c8;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.departureDateDetails button:hover{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #006078;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.departureDateDetails button:focus{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #006078;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+
+
+.cruiseline button{   
+    background-color: #006078;
+    color: #fff;
+    padding: 15px;
+    font: 600 18px Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+ 
+}
+.cruiseline items{
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.cruiseLineDetails{
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #D5D5D5;
+    border: 1px solid;
+    font: 600 18px Helvetica, sans-serif;
+    padding: 25px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    right: 26%;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.cruiseLineDetails button{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #c8c8c8;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+
+
+.cruiseship button{    
+    background-color: #006078;
+    color: #fff;
+    padding: 15px;
+    font: 600 18px Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+ 
+}
+.cruiseship items{
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.cruiseShipDetails{
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #D5D5D5;
+    border: 1px solid;
+    font: 600 18px Helvetica, sans-serif;
+    padding: 25px;
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    right: 26%;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    
+}
+
+.cruiseShipDetails button{
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: #c8c8c8;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+
+.cruiseship button:hover, .cruiseline button:hover, .departfrom button:hover, .destination button:hover, .departureDate button:hover{
+    cursor: pointer;
+    background-color: #555;
+}
+
+.exit:hover{
+    cursor:pointer;
+}
+
+.searchResults{
+    padding: 10px;
+}
+
+.resultContainer{
+    padding: 0px 0px 12px 50px;
+    font: 600 18px Helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #D5D5D5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.resultContainer:hover{
+    padding: 0px 0px 12px 50px;
+    border: 1px solid;
+    border-color: #006078;
+    box-shadow: 5px 10px 8px #888888;
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+
+.right-side{
+    max-width: 150px;
+    padding: 20px;
+    margin-left: 15px;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    float: right;
+
+}
+.cruiseLineName{
+    font-size: 20px;    
+    text-align:center;
+}
+
+.priceArea{
+    font-size: 14px;    
+    text-align:center;
+    font-family: sans-serif;
+}
+
+.price{
+    color: #00056D;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+}
+
+.right-side button{
+    background-color: #006078;
+    color: #fff;
+    padding: 10px;
+    font: 600 18px Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
+.right-side button:hover{
+    transition: 1s ease-in;
+    cursor: pointer;
+    background-color: #555;
+}
+
+.result h1, small{
+    color: #006078;
+}
+
+small{
+    padding: 15px;
+}
+
+.resultDetails{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resultDetails p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#loadMore{ 
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    max-width: 200px;
+    margin-left: 45%;
+    border: none;
+    outline: none;
+    background-color: #006078;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+}
+#loadMore:hover{
+    background-color: #555;
+}
+
+#scroll {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #006078;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 1s ease-in;
+}
+
+#scroll:hover {
+  background-color: #555;
+}
+
+.space{
+    height: 100px;
+}
+
+nav.footer-menu li, nav.footer-menu li a{
+    display: inline;  
+    text-transform: uppercase;
+    font: 600 14px Helvetica, sans-serif;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: .1rem;
+    padding: 10px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+footer{
+    position: absolute;
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer img{
+    width: 400px;
+    height: 100px;
+}

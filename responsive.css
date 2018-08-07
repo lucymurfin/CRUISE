@@ -1,0 +1,226 @@
+
+@media screen and (max-width:480px){
+    #logo {
+        width:50%;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+   
+    body{
+        overflow-x: hidden;
+    }
+    nav.main-menu{
+        width: 100%;
+    }
+
+    nav.main-menu ul{
+        width: 100%;
+        float:none;  
+        margin-left: 0px;
+        left: 25%;
+        margin-top: 10%;
+        padding: 0px;
+        transform: none;
+    }
+    nav.main-menu li a {
+        font-size: 12px;
+        width: 50%;
+        display: list-item;
+        border-radius: 0px;
+        margin-left:0px;
+        text-align: center;
+    }
+    #header{
+        display: none;
+    }
+    
+    .searchDetails{
+        width: 50%;
+        margin-top: 75px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    .departfrom button{
+       width: 50%;
+       margin-top: 60%;
+       font-size: 12px;
+       position: absolute;
+       left: 50%;
+       
+    }
+    .departfromDetails {
+        z-index: 1000;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    .departfromDetails button{
+        width: 100%;
+        padding: 5px;
+        margin: 2px;
+    }
+    .departfromDetails button:hover{
+        padding: 5px;
+    }
+    
+    .destination button{
+       width: 50%;
+       margin-top: 72%;
+       font-size: 12px;
+       position: absolute;
+       left: 50%;
+    }
+    
+    .destinationDetails {
+        z-index: 1000;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    
+    .destinationDetails button{
+        width: 100%;
+        padding: 5px;
+        margin: 2px;
+    }
+    
+    .destinationDetails button:hover{
+        padding: 5px;
+    }
+    
+    
+    .departureDate button{
+       width: 50%;
+       margin-top: 84%;
+       font-size: 12px;
+       position: absolute;
+       left: 50%;
+    }
+    
+    .departureDateDetails {
+        z-index: 1000;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    
+    .departureDateDetails button{
+        width: 100%;
+        padding: 5px;
+        margin: 2px;
+    }
+    
+    .departureDateDetails button:hover{
+        padding: 5px;
+    }
+    
+    .cruiseline button{
+       width: 50%;
+       margin-top: 96%;
+       font-size: 12px;
+       position: absolute;
+       left: 50%;
+    }
+    
+     .cruiseLineDetails {
+        z-index: 1000;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    
+    .cruiseLineDetails button{
+        width: 100%;
+        padding: 5px;
+        margin: 2px;
+    }
+    
+    .cruiseLineDetails button:hover{
+        padding: 5px;
+    }
+    
+    .cruiseship button{
+       width: 50%;
+       margin-top: 108%;
+       font-size: 12px;
+       position: absolute;
+       left: 50%;
+    }
+    
+     .cruiseShipDetails {
+        z-index: 1000;
+        height: 300px;
+        overflow-y: scroll;
+    }
+    
+    .cruiseShipDetails button{
+        width: 100%;
+        padding: 5px;
+        margin: 2px;
+    }
+    
+    .cruiseShipDetails button:hover{
+        padding: 5px;
+    }
+    
+    
+    .searchresults{
+        width: 75%;
+        margin: 10px;
+        margin-top: 110%;
+    }
+    .resultContainer {
+        width: 100%;
+        left: 50%;
+        margin: 0px;
+        font-size: 10px;
+    }
+    
+    
+/*    .resultContainer p {
+        width: 50%;
+        margin-right: 10px;
+        padding-right: 10px;
+    }*/
+    
+    .right-side{
+        width: 100%;
+        height: 30%;
+        margin-left: 5px;
+        padding: 20px;
+        padding-bottom: 35px;
+        text-align:center;
+    }
+    
+    .scroll{
+        display: none;
+    }
+    
+    .showMore{
+        text-align: center;
+    }
+    
+    #loadMore{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .space{
+        width: auto;
+    }
+    footer{
+        margin: 15px;
+        padding: 10px;
+    }
+    nav.footer-menu li a{
+        display: list-item;  
+        list-style-type: none;
+        padding: 5px;
+        padding-bottom: 0px;
+        text-decoration: none;
+    }
+
+    footer img{
+        width: 200px;
+        height: 50px;
+    }
+}
