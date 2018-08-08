@@ -1,5 +1,57 @@
+@media (min-width: 1000px) and (max-width: 1500px){
+    nav.main-menu ul, nav.main-menu {
+        font-size: 12px;
+        width: 500px;
+        float: right;
+        /*margin-left: 400px;*/
+    }
+    #logo{
+        width: 25%;
+        margin-left: 20px;
+    }
+}
 
-@media screen and (max-width:480px){
+@media (min-width: 480px) and (max-width: 1000px){
+    #logo{
+        width: 25%;
+        margin-left: 20px;
+    }
+    
+    nav.main-menu ul {
+        font-size: 12px;
+        width: 500px;
+        float: right;
+    }
+    
+    .departFrom button{
+        font-size: 12px;
+        left: 20%;
+    }
+    
+    .destination button{
+        font-size: 12px;
+        left: 35%;
+    }
+    
+    .departureDate button{
+        font-size: 12px;
+        left: 50%;
+    }
+    .cruiseline button{
+        font-size: 12px;
+        left: 65%
+    }
+    .cruiseship button{
+        font-size: 12px;
+        left: 80%;
+    }
+    
+    
+    
+}
+
+
+@media screen and (max-width:500px){
     #logo {
         width:50%;
         text-align: center;
