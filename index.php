@@ -12,9 +12,8 @@
         <a href="index.php"><img src="img/cruiselogo.png" alt="Cruise Logo" id="logo"></a>
         <br><br><br>        
         <nav class="main-menu">
-            <!--<label for="tm" id="toggle-menu">Navigation <span class="drop-icon">▾</span></label>-->
             <ul>
-                <li><a href="#">Home</a></li>
+<!--                <li><a href="#">Home</a></li>-->
                 <li><a href="#">News</a></li>
                 <li><a href="#">Cruise Lines</a></li>
                 <li><a href="#">Deals</a></li>
